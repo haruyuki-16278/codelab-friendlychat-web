@@ -349,3 +349,6 @@ const firebaseAppConfig = getFirebaseConfig();
 
 initFirebaseAuth();
 loadMessages();
+
+const firecaseAppCoonfig = getFirebaseConfig();
+initializeApp(firebaseAppConfig);
