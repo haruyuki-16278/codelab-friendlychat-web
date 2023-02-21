@@ -343,12 +343,9 @@ imageButtonElement.addEventListener('click', function (e) {
 mediaCaptureElement.addEventListener('change', onMediaFileSelected);
 
 const firebaseAppConfig = getFirebaseConfig();
-// TODO 0: Initialize Firebase
+initializeApp(firebaseAppConfig);
 
 // TODO 12: Initialize Firebase Performance Monitoring
 
 initFirebaseAuth();
 loadMessages();
-
-const firecaseAppCoonfig = getFirebaseConfig();
-initializeApp(firebaseAppConfig);
